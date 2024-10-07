@@ -1,25 +1,45 @@
 .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    color: white;
 }
 
 .disabled {
+    background: #004D99;
+
 }
 
 .secondary {
+    border: #004D99 solid 1px;
+    background: #ffffff;
+    color: #0059b3;
+
 }
 
 .default {
+    background: #0066CC;
 }
 
 .red {
+    background: #CC1439;
 }
 
 .default:hover {
+    background: #0080FF;
 }
 
 .red:hover {
+    background: #FF1A47;
 }
 
 .secondary:hover {
+    background: #E5F0FA;
 }
 
 
@@ -33,4 +53,5 @@
 }
 
 .button:disabled {
+    opacity: .3;
 }

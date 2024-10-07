@@ -1,20 +1,45 @@
-.input:focus {
+input:focus {
+    border: 2px solid greenyellow;
+    border-radius: 4px 4px 2px 2px;
+}
+.input {
+    margin-left: 10px;
+    width: 372px;
+    height: 36px;
+    background-color: #ffffff;
+    border: 2px #000000 solid;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    line-height: 1.15;
+    box-shadow: 0 10px 20px -18px;
 }
 
-.input {
-}
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 2px solid red;
 }
 
 .errorInput:focus {
+    border: 2px solid greenyellow;
+}
+
+.errorInput:blur {
+    border: 2px solid greenyellow;
 }
 
 .error {
+    margin-left: 10px;
+    color: red;
 }
+
