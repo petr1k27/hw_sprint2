@@ -5,19 +5,37 @@
 }
 
 .users {
+    border-collapse: collapse;
+    text-align: left;
 }
 
 .buttonsContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
 }
 
 .container {
+    margin: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    width: 606px;
+    gap: 20px;
+
 }
 
 .thead {
+    background-color: #e5e5e5;
+    height: 36px;
+    font-weight: 600;
 }
 
 .nameCol {
 }
 
 .ageCol {
+    font-weight: 500;
+}
+td {
+    padding: 10px; /* Установите нужное значение */
 }
