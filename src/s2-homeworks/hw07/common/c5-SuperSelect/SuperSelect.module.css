@@ -1,7 +1,15 @@
 .select {
+    height: 24px;
+    width: 180px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 }
 
 .select:focus {
+
 }
 
 

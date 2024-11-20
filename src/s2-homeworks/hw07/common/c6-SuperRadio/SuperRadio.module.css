@@ -1,4 +1,6 @@
 .radio {
+    margin-right: 20px;
+
 }
 
 .radio::before {
@@ -9,6 +11,14 @@
 }
 
 .label {
+    display: flex;
+    width: 150px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
 }
 
 .options {
